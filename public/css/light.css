@@ -9,4 +9,13 @@
     --shellauth-load-card-border-top: 1px solid #F1F0F9;
     --cadre-service-background-color: #F6F7FD;
     --cadre-service-color: black;
+    /* APP */
+    --titre-h1: black;
+    --titre-p: black;
+    --inputmail-border: black;
+    --inputmail-background: white;
+    --inputmail-color: black;
+    --checkemail-btnmail-background:#3D5A8D;
+    --checkemail-btnmail-border:#3D5A8D;
+    /* APP */
 }

@@ -12,7 +12,7 @@ html, body {
 }
 
 .ShellTop {
-    flex: 0.5;
+    flex: 1;
     background-color: var(--shell-top-background-color);
     color: var(--shell-top-color);
     display: flex;
@@ -209,17 +209,27 @@ html, body {
     text-align: center;
 }
 
+.cadre__center > h1 {
+    color: var(--titre-h1);
+}
+
+.cadre__center > p {
+    color: var(--titre-p);
+}
+
 .inputMail {
     width: 50%;
     height: 4em;
-    border: 1px solid black;
+    border: 1px solid var(--inputmail-border);
+    background-color: var(--inputmail-background);
+    color: var(--inputmail-color);
 }
 
 .checkemail__btnMail {
     width: 10%;
     height: 4.5em;
-    background-color: #3D5A8D;
-    border: 1px solid #3D5A8D;
+    background-color: var(--checkemail-btnmail-background);
+    border: 1px solid var(--checkemail-btnmail-border)#3D5A8D;
     cursor: pointer;
     color: white;
 }
