@@ -1,10 +1,10 @@
 export default {
-    logo: "../assets/logo-avadomain.png",
-    name: "Equativa",
-    alias: "equativa",
-    description: "Un service qui sert de boilerplate.",
-    footer: "COPYRIGHT 2023 - EQUATIVA",
+    logo: "../assets/logo-checkemail.png",
+    name: "CheckEmail",
+    alias: "checkemail",
+    description: "Un service de vérification d'adresse email.",
+    footer: "COPYRIGHT 2023 - CHECKEMAIL",
     keywords: [],
-    enabledAnalytics: false,
-    codeG4A: ''
+    enabledAnalytics: true,
+    codeG4A: 'G-Q5G7T2HNW1'
 }

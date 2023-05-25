@@ -141,3 +141,129 @@ html, body {
     padding-left: 1em;
     padding-bottom: 1em;
 }
+
+/* APP */
+
+.cadre__navigation {
+    min-height: 2em;
+    height: auto;
+    background-color: #e6e7ee;
+    color: black;
+    padding-top: 0.5em;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+}
+
+.cadre__service_logo {
+    padding-top: 1em;
+}
+
+.navigation__application {
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    margin:0;
+    list-style-type:none;
+}
+
+.navigation__application_element {
+    float: left;
+    margin-left: 10px;
+}
+
+.container__application {
+    padding-top: 10em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.container__application_changelog {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.container__application_content {
+    padding-top: 17em;
+}
+
+.form-control {
+    width: 85%;
+}
+
+.badge {
+    border-radius: 3em;
+    padding: 0.2em;
+}
+
+.bg-success {
+    background-color: #198754;
+    color: white;
+}
+
+.container__checkemail {
+    padding-top: 10em;
+    padding-left: 20em;
+    padding-right: 20em;
+}
+
+.cadre__center {
+    text-align: center;
+}
+
+.inputMail {
+    width: 50%;
+    height: 4em;
+    border: 1px solid black;
+}
+
+.checkemail__btnMail {
+    width: 10%;
+    height: 4.5em;
+    background-color: #3D5A8D;
+    border: 1px solid #3D5A8D;
+    cursor: pointer;
+    color: white;
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid black; /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Alert */
+.alert {
+    padding: 20px;
+    background-color: #ffcfcc;
+    border: 1px solid #f44336;
+    border-left: 9px solid #f44336;
+    color: #f44336;
+    opacity: 0.83;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+}
+
+/* Alert Success */
+.alert.success {
+    border: 1px solid #04AA6D;
+    border-left: 9px solid #04AA6D;
+    background-color: #a3ffdd;
+    color: #04AA6D;
+}
+
+/* Alert Warning */
+.alert.warning {
+    border: 1px solid #ff9800;
+    border-left: 9px solid #ff9800;
+    background-color: #ffe1b5;
+    color: #ff9800;
+}
+
+/* APP */
